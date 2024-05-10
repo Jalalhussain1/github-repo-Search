@@ -34,3 +34,10 @@ To run this project locally, follow these steps:
 ## Demo
 
 You can view a live demo of this project ( https://jalalhussain1.github.io/github-repo-Search/).
+
+# USAGE
+Open the index.html file in your web browser.
+In the search bar, enter your query (e.g., keywords, username).
+Press the Enter key or click the search button.
+Browse through the search results displayed on the page.
+Click on any repository to view more details on GitHub.#
