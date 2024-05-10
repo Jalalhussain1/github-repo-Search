@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+}
+
+.search {
+    display: flex;
+    width: 50%;
+
+}
+
+.search input {
+    padding: 0.5rem 1rem;
+    width: 100%;
+
+
+}
+
+.primary-btn {
+    background-color: rgba(24, 136, 110, 0.779);
+    width: 70px;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.primary-btn:hover {
+    background-color: aqua;
+}
+
+/*card*/
+.box {
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 1rem rgba(24, 136, 110, 0.779);
+    width: 50vw;
+    height: 400px;
+    background: rgb(241, 230, 216);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image {
+    height: 10rem;
+
+}
+
+.image img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.self {
+    text-align: center;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 30vh;
+    text-align: center;
+    margin-top: 45px;
+}
+@media  screen and (max-width:1133px) {
+    .status{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:420px){
+       .status-item >h1{
+        font-size: 15px;
+       }
+       .status{
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+       }
+}
+    
